@@ -4,6 +4,8 @@ gem 'rails', '3.2.14'
 
 gem 'bootstrap-sass', '2.1'
 
+gem 'bcrypt-ruby', '~> 3.0.0'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -20,6 +22,7 @@ end
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'factory_girl_rails', '4.1.0'
 end
 
 # Gems used only for assets and not required
@@ -53,4 +56,4 @@ gem 'jquery-rails', '2.0.2'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
